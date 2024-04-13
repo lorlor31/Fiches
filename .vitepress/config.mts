@@ -2,12 +2,13 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  ignoreDeadLinks: true,
   title: "Fiches Dev Web",
   description: "Dev Web tutorials",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
+      { text: 'Home', link: '/lorlor-fiches.surge.sh' },
       { text: 'Examples', link: '/markdown-examples' }
     ],
 
@@ -22,7 +23,11 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/lorlor31' }
     ]
+
+      
+    
   }
+
 })

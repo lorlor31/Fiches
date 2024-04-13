@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>MISE EN PROD D UN PROJET SYMFONY | Fiches Dev Web</title>
+    <meta name="description" content="Dev Web tutorials">
+    <meta name="generator" content="VitePress v1.1.0">
+    <link rel="preload stylesheet" href="/assets/style.BCAmGaQT.css" as="style">
+    
+    <script type="module" src="/assets/app.BjzwupGW.js"></script>
+    <link rel="preload" href="/assets/inter-roman-latin.Di8DUHzh.woff2" as="font" type="font/woff2" crossorigin="">
+    <link rel="modulepreload" href="/assets/chunks/framework.mHHrDb8M.js">
+    <link rel="modulepreload" href="/assets/chunks/theme.YH-oibXV.js">
+    <link rel="modulepreload" href="/assets/MEP_symfo.md.WwSsHhus.lean.js">
+    <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
+    <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
+  </head>
+  <body>
+    <div id="app"><div class="Layout" data-v-a9a9e638><!--[--><!--]--><!--[--><span tabindex="-1" data-v-c3508ec8></span><a href="#VPContent" class="VPSkipLink visually-hidden" data-v-c3508ec8> Skip to content </a><!--]--><!----><header class="VPNav" data-v-a9a9e638 data-v-f1e365da><div class="VPNavBar has-sidebar top" data-v-f1e365da data-v-40788ea0><div class="wrapper" data-v-40788ea0><div class="container" data-v-40788ea0><div class="title" data-v-40788ea0><div class="VPNavBarTitle has-sidebar" data-v-40788ea0 data-v-28a961f9><a class="title" href="/" data-v-28a961f9><!--[--><!--]--><!----><span data-v-28a961f9>Fiches Dev Web</span><!--[--><!--]--></a></div></div><div class="content" data-v-40788ea0><div class="content-body" data-v-40788ea0><!--[--><!--]--><div class="VPNavBarSearch search" data-v-40788ea0><!----></div><nav aria-labelledby="main-nav-aria-label" class="VPNavBarMenu menu" data-v-40788ea0 data-v-492ea56d><span id="main-nav-aria-label" class="visually-hidden" data-v-492ea56d>Main Navigation</span><!--[--><!--[--><a class="VPLink link VPNavBarMenuLink" href="/" tabindex="0" data-v-492ea56d data-v-ed5ac1f6><!--[--><span data-v-ed5ac1f6>Home</span><!--]--></a><!--]--><!--[--><a class="VPLink link VPNavBarMenuLink" href="/markdown-examples.html" tabindex="0" data-v-492ea56d data-v-ed5ac1f6><!--[--><span data-v-ed5ac1f6>Examples</span><!--]--></a><!--]--><!--]--></nav><!----><div class="VPNavBarAppearance appearance" data-v-40788ea0 data-v-ead91a81><button class="VPSwitch VPSwitchAppearance" type="button" role="switch" title="Switch to dark theme" aria-checked="false" data-v-ead91a81 data-v-b79b56d4 data-v-4a1c76db><span class="check" data-v-4a1c76db><span class="icon" data-v-4a1c76db><!--[--><span class="vpi-sun sun" data-v-b79b56d4></span><span class="vpi-moon moon" data-v-b79b56d4></span><!--]--></span></span></button></div><div class="VPSocialLinks VPNavBarSocialLinks social-links" data-v-40788ea0 data-v-164c457f data-v-ee7a9424><!--[--><a class="VPSocialLink no-icon" href="https://github.com/vuejs/vitepress" aria-label="github" target="_blank" rel="noopener" data-v-ee7a9424 data-v-717b8b75><span class="vpi-social-github" /></a><!--]--></div><div class="VPFlyout VPNavBarExtra extra" data-v-40788ea0 data-v-9b536d0b data-v-e5380155><button type="button" class="button" aria-haspopup="true" aria-expanded="false" aria-label="extra navigation" data-v-e5380155><span class="vpi-more-horizontal icon" data-v-e5380155></span></button><div class="menu" data-v-e5380155><div class="VPMenu" data-v-e5380155 data-v-97491713><!----><!--[--><!--[--><!----><div class="group" data-v-9b536d0b><div class="item appearance" data-v-9b536d0b><p class="label" data-v-9b536d0b>Appearance</p><div class="appearance-action" data-v-9b536d0b><button class="VPSwitch VPSwitchAppearance" type="button" role="switch" title="Switch to dark theme" aria-checked="false" data-v-9b536d0b data-v-b79b56d4 data-v-4a1c76db><span class="check" data-v-4a1c76db><span class="icon" data-v-4a1c76db><!--[--><span class="vpi-sun sun" data-v-b79b56d4></span><span class="vpi-moon moon" data-v-b79b56d4></span><!--]--></span></span></button></div></div></div><div class="group" data-v-9b536d0b><div class="item social-links" data-v-9b536d0b><div class="VPSocialLinks social-links-list" data-v-9b536d0b data-v-ee7a9424><!--[--><a class="VPSocialLink no-icon" href="https://github.com/vuejs/vitepress" aria-label="github" target="_blank" rel="noopener" data-v-ee7a9424 data-v-717b8b75><span class="vpi-social-github" /></a><!--]--></div></div></div><!--]--><!--]--></div></div></div><!--[--><!--]--><button type="button" class="VPNavBarHamburger hamburger" aria-label="mobile navigation" aria-expanded="false" aria-controls="VPNavScreen" data-v-40788ea0 data-v-5dea55bf><span class="container" data-v-5dea55bf><span class="top" data-v-5dea55bf></span><span class="middle" data-v-5dea55bf></span><span class="bottom" data-v-5dea55bf></span></span></button></div></div></div></div><div class="divider" data-v-40788ea0><div class="divider-line" data-v-40788ea0></div></div></div><!----></header><div class="VPLocalNav has-sidebar empty" data-v-a9a9e638 data-v-070ab83d><div class="container" data-v-070ab83d><button class="menu" aria-expanded="false" aria-controls="VPSidebarNav" data-v-070ab83d><span class="vpi-align-left menu-icon" data-v-070ab83d></span><span class="menu-text" data-v-070ab83d>Menu</span></button><div class="VPLocalNavOutlineDropdown" style="--vp-vh:0px;" data-v-070ab83d data-v-47ad05d4><button data-v-47ad05d4>Return to top</button><!----></div></div></div><aside class="VPSidebar" data-v-a9a9e638 data-v-ec846e01><div class="curtain" data-v-ec846e01></div><nav class="nav" id="VPSidebarNav" aria-labelledby="sidebar-aria-label" tabindex="-1" data-v-ec846e01><span class="visually-hidden" id="sidebar-aria-label" data-v-ec846e01> Sidebar Navigation </span><!--[--><!--]--><!--[--><div class="group" data-v-ec846e01><section class="VPSidebarItem level-0" data-v-ec846e01 data-v-2ea20db7><div class="item" role="button" tabindex="0" data-v-2ea20db7><div class="indicator" data-v-2ea20db7></div><h2 class="text" data-v-2ea20db7>Examples</h2><!----></div><div class="items" data-v-2ea20db7><!--[--><div class="VPSidebarItem level-1 is-link" data-v-2ea20db7 data-v-2ea20db7><div class="item" data-v-2ea20db7><div class="indicator" data-v-2ea20db7></div><a class="VPLink link link" href="/markdown-examples.html" data-v-2ea20db7><!--[--><p class="text" data-v-2ea20db7>Markdown Examples</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-2ea20db7 data-v-2ea20db7><div class="item" data-v-2ea20db7><div class="indicator" data-v-2ea20db7></div><a class="VPLink link link" href="/api-examples.html" data-v-2ea20db7><!--[--><p class="text" data-v-2ea20db7>Runtime API Examples</p><!--]--></a><!----></div><!----></div><!--]--></div></section></div><!--]--><!--[--><!--]--></nav></aside><div class="VPContent has-sidebar" id="VPContent" data-v-a9a9e638 data-v-91765379><div class="VPDoc has-sidebar has-aside" data-v-91765379 data-v-83890dd9><!--[--><!--]--><div class="container" data-v-83890dd9><div class="aside" data-v-83890dd9><div class="aside-curtain" data-v-83890dd9></div><div class="aside-container" data-v-83890dd9><div class="aside-content" data-v-83890dd9><div class="VPDocAside" data-v-83890dd9 data-v-6d7b3c46><!--[--><!--]--><!--[--><!--]--><div class="VPDocAsideOutline" role="navigation" data-v-6d7b3c46 data-v-c14bfc45><div class="content" data-v-c14bfc45><div class="outline-marker" data-v-c14bfc45></div><div class="outline-title" role="heading" aria-level="2" data-v-c14bfc45>On this page</div><nav aria-labelledby="doc-outline-aria-label" data-v-c14bfc45><span class="visually-hidden" id="doc-outline-aria-label" data-v-c14bfc45> Table of Contents for current page </span><ul class="VPDocOutlineItem root" data-v-c14bfc45 data-v-3f927ebe><!--[--><!--]--></ul></nav></div></div><!--[--><!--]--><div class="spacer" data-v-6d7b3c46></div><!--[--><!--]--><!----><!--[--><!--]--><!--[--><!--]--></div></div></div></div><div class="content" data-v-83890dd9><div class="content-container" data-v-83890dd9><!--[--><!--]--><main class="main" data-v-83890dd9><div style="position:relative;" class="vp-doc _MEP_symfo" data-v-83890dd9><div><h1 id="mise-en-prod-d-un-projet-symfony" tabindex="-1">MISE EN PROD D UN PROJET SYMFONY <a class="header-anchor" href="#mise-en-prod-d-un-projet-symfony" aria-label="Permalink to &quot;MISE EN PROD D UN PROJET SYMFONY&quot;">​</a></h1><h2 id="se-connecter-en-ssh" tabindex="-1">Se connecter en ssh <a class="header-anchor" href="#se-connecter-en-ssh" aria-label="Permalink to &quot;Se connecter en ssh&quot;">​</a></h2><p><code>ssh mon_adresse_de_connexion@hebergeur.com</code> Virer l&#39;empreinte avec la commande proposée ds le terminal. Puis relancer la connexion ssh.</p><h2 id="installer-les-logiciels" tabindex="-1">Installer les logiciels <a class="header-anchor" href="#installer-les-logiciels" aria-label="Permalink to &quot;Installer les logiciels&quot;">​</a></h2><h3 id="script-de-ben-a-mettre-dans-un-fichier-installation-serveur-sh" tabindex="-1">Script de Ben à mettre dans un fichier installation-serveur.sh <a class="header-anchor" href="#script-de-ben-a-mettre-dans-un-fichier-installation-serveur-sh" aria-label="Permalink to &quot;Script de Ben à mettre dans un fichier installation-serveur.sh&quot;">​</a></h3><p>le lancer en tapant <code>sh installation-serveur.sh</code> et fournir ses username et mdp</p><p>===================================================</p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span></span></span>
+<span class="line"><span>#!/bin/sh</span></span>
+<span class="line"><span>echo &quot;*********************************************&quot;</span></span>
+<span class="line"><span>echo &quot;*  Bienvenue dans le script d&#39;installation  *&quot;</span></span>
+<span class="line"><span>echo &quot;*********************************************&quot;</span></span>
+<span class="line"><span>echo &quot; &quot;</span></span>
+<span class="line"><span>read -p &quot;appuyez sur entrée pour lancer l&#39;installation&quot;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>USER_NAME=$USER</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>installUpdate()</span></span>
+<span class="line"><span>{</span></span>
+<span class="line"><span>  # mise à jour de la base logicielle</span></span>
+<span class="line"><span>  sudo apt-get update</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>  # mise à jour des logiciels préinstallés</span></span>
+<span class="line"><span>  sudo apt-get -y upgrade</span></span>
+<span class="line"><span>}</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>installEssentials()</span></span>
+<span class="line"><span>{</span></span>
+<span class="line"><span>  #installation de nano</span></span>
+<span class="line"><span>  sudo apt-get install -y nano</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>  # installation zip</span></span>
+<span class="line"><span>  sudo apt-get install -y unzip</span></span>
+<span class="line"><span>}</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>reinitMySQL()</span></span>
+<span class="line"><span>{</span></span>
+<span class="line"><span>  sudo mysql_install_db --user=mysql</span></span>
+<span class="line"><span>}</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>installApache()</span></span>
+<span class="line"><span>{</span></span>
+<span class="line"><span>  # installation apache</span></span>
+<span class="line"><span>  sudo apt-get install -y apache2</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>  # activation du mod rewrite</span></span>
+<span class="line"><span>  sudo a2enmod rewrite</span></span>
+<span class="line"><span>  sudo service apache2 restart</span></span>
+<span class="line"><span>}</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>configureApache()</span></span>
+<span class="line"><span>{</span></span>
+<span class="line"><span>  # modification du AllowOverride</span></span>
+<span class="line"><span>  sudo sed -i &#39;/&lt;Directory \/var\/www\/&gt;/,/&lt;\/Directory&gt;/ s/AllowOverride None/AllowOverride all/&#39; /etc/apache2/apache2.conf</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>  # configuration des droits</span></span>
+<span class="line"><span>  sudo chown -R $USER_NAME:www-data /var/www/html</span></span>
+<span class="line"><span>  sudo chmod -R 775 /var/www/html</span></span>
+<span class="line"><span>  sudo chmod g+s /var/www/html</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>  # suppression du fichier index.html par défaut pour avoir le listing des répertoires</span></span>
+<span class="line"><span>  sudo rm -rf /var/www/html/index.html</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>  # redémarrage d&#39;Apache</span></span>
+<span class="line"><span>  sudo service apache2 restart</span></span>
+<span class="line"><span>}</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>installPHP()</span></span>
+<span class="line"><span>{</span></span>
+<span class="line"><span>  # installation php 8.2</span></span>
+<span class="line"><span>  sudo add-apt-repository ppa:ondrej/php</span></span>
+<span class="line"><span>  sudo apt update</span></span>
+<span class="line"><span>  sudo apt-get install -y php8.2</span></span>
+<span class="line"><span>  sudo apt-get install -y php8.2-intl</span></span>
+<span class="line"><span>  sudo apt-get install -y php8.2-common</span></span>
+<span class="line"><span>  sudo apt-get install -y php8.2-cli</span></span>
+<span class="line"><span>  sudo apt-get install -y php8.2-mysql</span></span>
+<span class="line"><span>  sudo apt-get install -y libapache2-mod-php8.2</span></span>
+<span class="line"><span>  sudo apt-get install -y php8.2-mbstring</span></span>
+<span class="line"><span>  sudo apt-get install -y php8.2-json</span></span>
+<span class="line"><span>  sudo apt-get install -y php8.2-xml</span></span>
+<span class="line"><span>  sudo apt-get install -y php8.2-xdebug</span></span>
+<span class="line"><span>  sudo service apache2 restart</span></span>
+<span class="line"><span>}</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>configurePHP()</span></span>
+<span class="line"><span>{</span></span>
+<span class="line"><span>  sudo php -r &quot;\$ini=glob(&#39;/etc/php/*/apache2/php.ini&#39;)[0]; \$buffer=file_get_contents(\$ini); \$buffer=str_replace(&#39;display_errors = Off&#39;, &#39;display_errors = On&#39;,\$buffer); file_put_contents(\$ini, \$buffer);&quot;;</span></span>
+<span class="line"><span>  sudo service apache2 restart</span></span>
+<span class="line"><span>}</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>installComposer()</span></span>
+<span class="line"><span>{</span></span>
+<span class="line"><span>  # composer</span></span>
+<span class="line"><span>  cd /tmp</span></span>
+<span class="line"><span>  php -r &quot;copy(&#39;https://getcomposer.org/installer&#39;, &#39;composer-setup.php&#39;);&quot;</span></span>
+<span class="line"><span>  php composer-setup.php --quiet</span></span>
+<span class="line"><span>  php -r &quot;unlink(&#39;composer-setup.php&#39;);&quot;</span></span>
+<span class="line"><span>  sudo mv composer.phar /usr/local/bin/composer</span></span>
+<span class="line"><span>}</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>installMySQL()</span></span>
+<span class="line"><span>{</span></span>
+<span class="line"><span>  # installation mariadb-server</span></span>
+<span class="line"><span>  sudo apt-get install -y mariadb-server</span></span>
+<span class="line"><span>  sudo service mysql start</span></span>
+<span class="line"><span>}</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>configureMysql()</span></span>
+<span class="line"><span>{</span></span>
+<span class="line"><span>  # configuration mysql</span></span>
+<span class="line"><span>  read -p &quot;BDD User name ? &quot; BDD_USER_NAME</span></span>
+<span class="line"><span>  echo $BDD_USER_NAME;</span></span>
+<span class="line"><span>  read -p &quot;BDD password ? &quot; BDD_USER_PASSWORD</span></span>
+<span class="line"><span>  echo $BDD_USER_PASSWORD</span></span>
+<span class="line"><span>  </span></span>
+<span class="line"><span>  sudo  mysql  &lt;&lt;EOF </span></span>
+<span class="line"><span>CREATE USER ${BDD_USER_NAME}@localhost IDENTIFIED BY &#39;${BDD_USER_PASSWORD}&#39;; </span></span>
+<span class="line"><span>GRANT ALL PRIVILEGES ON *.* TO \`${BDD_USER_NAME}\`@&#39;localhost&#39; WITH GRANT OPTION; </span></span>
+<span class="line"><span>EOF</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>  # modify bind-address</span></span>
+<span class="line"><span>  sudo php -r &quot;\$cnf=glob(&#39;/etc/mysql/mariadb.conf.d/50-server.cnf&#39;)[0]; \$buffer=file_get_contents(\$cnf); \$buffer=str_replace(&#39;127.0.0.1&#39;, &#39;0.0.0.0&#39;,\$buffer); file_put_contents(\$cnf, \$buffer);&quot;;</span></span>
+<span class="line"><span>  sudo service mysql restart</span></span>
+<span class="line"><span>}</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>installGit()</span></span>
+<span class="line"><span>{</span></span>
+<span class="line"><span>  # installation de git</span></span>
+<span class="line"><span>  sudo apt-get install -y git</span></span>
+<span class="line"><span>}</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#==========================================================================================</span></span>
+<span class="line"><span>#==========================================================================================</span></span>
+<span class="line"><span>installUpdate</span></span>
+<span class="line"><span>installEssentials</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>installApache</span></span>
+<span class="line"><span>configureApache</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>installPHP</span></span>
+<span class="line"><span>configurePHP</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>installMySQL</span></span>
+<span class="line"><span>configureMysql</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>installComposer</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>installGit</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>exit 0</span></span></code></pre></div><p>==========================================================</p><h2 id="cloner-le-repo-du-projet" tabindex="-1">Cloner le repo du projet <a class="header-anchor" href="#cloner-le-repo-du-projet" aria-label="Permalink to &quot;Cloner le repo du projet&quot;">​</a></h2><ol><li>Créer une clé ssh pour Github <code>ssh-keygen -t ed25519 -C &quot;vm_serveur&quot;</code></li><li>Copier la clé publique dans github--&gt;settings--&gt;SSH <code>cat /home/student/.ssh/id_ed25519.pub</code></li><li>cloner le repo dans /var/www/html</li><li>Créer le .env.local avec les bons id et bdd, mettre env à prod,</li></ol><h2 id="installer-composer" tabindex="-1">Installer Composer <a class="header-anchor" href="#installer-composer" aria-label="Permalink to &quot;Installer Composer&quot;">​</a></h2><p>se mettre dans le dossier du projet <code>sudo apt install composer</code> puis <code>composer install --no-dev</code></p><p>et composant apache <code>composer require symfony/apache-pack</code>(pour l&#39;htaccess)</p><h2 id="creer-la-bdd" tabindex="-1">Créer la BDD <a class="header-anchor" href="#creer-la-bdd" aria-label="Permalink to &quot;Créer la BDD&quot;">​</a></h2><ul><li><code>php bin/console do:da:cr</code></li><li><code>php bin/console do:mi:mi</code></li><li>si pas de données, on peut</li></ul><ol><li>créer un fichier bdd.sql avec l&#39;export sql de la bdd dedans</li><li>se connecter en CLI : <code>mysql -u VOTRE_UTILISATEUR -p </code></li><li>puis <code>USE votre_base_de_donnees;</code></li><li>puis exécuter la requête avec <code>source /chemin/vers/votre/script.sql;</code></li></ol><p>[ en fait pour l&#39;import export de la BDD , ceci a l&#39;air plus simple :</p><p>Exporter la bdd localement :</p><p><code>mysqldump -u username -p database_name &gt; database_dump.sql</code></p><p>L&#39;importer sur le serveur :</p><p><code>mysql -u username -p database_name &lt; database_dump.sql</code></p><p>]</p><h2 id="installer-adminer" tabindex="-1">Installer Adminer <a class="header-anchor" href="#installer-adminer" aria-label="Permalink to &quot;Installer Adminer&quot;">​</a></h2><p><code>sudo apt install adminer</code></p><p><code>sudo a2enconf adminer</code></p><p><code>sudo systemctl reload apache2</code></p><h2 id="ou-phpmyadmin" tabindex="-1">Ou PHPMyAdmin <a class="header-anchor" href="#ou-phpmyadmin" aria-label="Permalink to &quot;Ou PHPMyAdmin&quot;">​</a></h2><p><code>sudo apt install phpmyadmin</code></p><p>puis choisir apache2 Ben utilise Bcrypt pour chiffrer le mdp</p><h2 id="configuration-des-virtual-hosts" tabindex="-1">Configuration des virtual hosts <a class="header-anchor" href="#configuration-des-virtual-hosts" aria-label="Permalink to &quot;Configuration des virtual hosts&quot;">​</a></h2><ol><li><code>cd /etc/apache2/ </code></li><li><code>sudo chown student sites-available/ </code></li><li><code>cd sites-available/</code></li><li><code>touch monSite.conf</code></li><li><code>nano monSite.conf </code></li><li>et copier</li></ol><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>    &lt;VirtualHost *:80&gt;</span></span>
+<span class="line"><span>	ServerName laure-seng-server.eddi.cloud</span></span>
+<span class="line"><span>	DocumentRoot /var/www/html/monSite/public/</span></span>
+<span class="line"><span>	</span></span>
+<span class="line"><span>	ErrorLog ${APACHE_LOG_DIR}/error.log</span></span>
+<span class="line"><span>	CustomLog ${APACHE_LOG_DIR}/access.log combined</span></span>
+<span class="line"><span>	</span></span>
+<span class="line"><span>	&lt;Directory /var/www/html/monSite/&gt;</span></span>
+<span class="line"><span>		Options indexes</span></span>
+<span class="line"><span>		AllowOverride all</span></span>
+<span class="line"><span>		Allow from all</span></span>
+<span class="line"><span>		Require all granted</span></span>
+<span class="line"><span>	&lt;/Directory&gt;	</span></span>
+<span class="line"><span>	RewriteEngine on</span></span>
+<span class="line"><span>    &lt;/VirtualHost&gt;</span></span></code></pre></div><ol start="6"><li><code>sudo a2ensite monSite.conf</code></li></ol><p><code>sudo service apache2 restart</code></p><h2 id="mettre-a-jour-le-repo-clone" tabindex="-1">Mettre à jour le repo cloné <a class="header-anchor" href="#mettre-a-jour-le-repo-clone" aria-label="Permalink to &quot;Mettre à jour le repo cloné&quot;">​</a></h2><p>git pull origin maBranche</p><h1 id="problemes-possibles-astuces" tabindex="-1">Problèmes possibles /Astuces <a class="header-anchor" href="#problemes-possibles-astuces" aria-label="Permalink to &quot;Problèmes possibles /Astuces&quot;">​</a></h1><ul><li><p>Utiliser <strong>Remote SSH</strong> extension vsCode</p></li><li><p>Effacer le cache <code>php bin/console cache:clear --env=prod </code></p></li><li><p>version php à upgrader moi g la php8.3.4 <a href="https://php.watch/articles/php-8.3-install-upgrade-on-debian-ubuntu" target="_blank" rel="noreferrer">https://php.watch/articles/php-8.3-install-upgrade-on-debian-ubuntu</a></p></li><li><p>php-XML manquant <code>sudo apt install php8.2-xml</code></p></li><li><p>ou sudo apt-get update -y sudo apt-get install -y php-xml</p></li><li><p>mysql manquant <code>sudo apt install php8.2-mysql</code></p></li><li><p>pdo <code>sudo apt-get install php-pdo-mysql</code></p></li><li><p>Les erreurs sont dans var/log/apache2 error.log</p></li><li><p>Redémarrer <code>Apache sudo apachectl restart</code></p></li><li><p>ne pas oublier de rendre la VM publique</p></li><li><p>Pour mettre plusieurs sites sur le même nom de domaine, créer les fichiers mmonsite.conf dans sitesavailable et mettre à server monsite.mondomaine monsite2.mondomaine etc...</p></li><li><p>Empecher l&#39;acces au var /www/html depuis le nom de domaine : créer un fichier dans htaccess et y écrire Deny from all</p></li></ul></div></div></main><footer class="VPDocFooter" data-v-83890dd9 data-v-87be45d1><!--[--><!--]--><!----><nav class="prev-next" data-v-87be45d1><div class="pager" data-v-87be45d1><!----></div><div class="pager" data-v-87be45d1><a class="VPLink link pager-link next" href="/markdown-examples.html" data-v-87be45d1><!--[--><span class="desc" data-v-87be45d1>Next page</span><span class="title" data-v-87be45d1>Markdown Examples</span><!--]--></a></div></nav></footer><!--[--><!--]--></div></div></div><!--[--><!--]--></div></div><!----><!--[--><!--]--></div></div>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"api-examples.md\":\"DwmoHayx\",\"markdown-examples.md\":\"ErqhIdBZ\",\"mep_symfo_encore.md\":\"DQsEJb2A\",\"index.md\":\"CU6Yo6AZ\",\"symfony_from_scratch.md\":\"bCZc6RaE\",\"mep_symfo.md\":\"WwSsHhus\",\"api_with_symfony.md\":\"BzavDTir\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"Fiches Dev Web\",\"description\":\"Dev Web tutorials\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"nav\":[{\"text\":\"Home\",\"link\":\"/\"},{\"text\":\"Examples\",\"link\":\"/markdown-examples\"}],\"sidebar\":[{\"text\":\"Examples\",\"items\":[{\"text\":\"Markdown Examples\",\"link\":\"/markdown-examples\"},{\"text\":\"Runtime API Examples\",\"link\":\"/api-examples\"}]}],\"socialLinks\":[{\"icon\":\"github\",\"link\":\"https://github.com/vuejs/vitepress\"}]},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":false}");</script>
+    
+  </body>
+</html>

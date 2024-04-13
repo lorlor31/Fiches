@@ -30,7 +30,7 @@ hero:
 features:
   - title: Mettre en prod, même un vendredi
     details: De la connexion ssh à la production !
-    link: /API_WITH_SYMFONY
+    link: /MEP_symfo
   - title: Tout pour créer une API avec Symfony
     details: Endpoints, Json Response, Serializer, JWT, même pas peur ! 
     link: /API_WITH_SYMFONY
