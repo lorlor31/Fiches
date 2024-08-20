@@ -8,7 +8,8 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/lorlor-fiches.surge.sh' },
+      { text: 'Home', link: '/index' },
+      { text: 'Feat.', link: '/les_autres' },
       { text: 'Examples', link: '/markdown-examples' }
     ],
 

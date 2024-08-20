@@ -1,0 +1,13 @@
+
+
+Builder
+npm run docs:build
+Prévisualiser
+npm run docs:preview          
+Déployer
+npx surge .vitepress/dist
+Domain : https://lorlor-fiches.surge.sh/
+
+Au cas où les commandes disent qu'il y a pas VitePress, l'installer :
+npm install vitepress --save-dev
+

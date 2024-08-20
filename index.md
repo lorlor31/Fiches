@@ -7,39 +7,44 @@ hero:
   text: "Le dev, c'est pas de la tarte ?"
   tagline: Mes fiches recap perso
   actions:
-    # - theme: brand
-    #   text: Markdown Examples
-    #   link: /markdown-examples
-    # - theme: alt
-    #   text: API Examples
-    #   link: /api-examples
     - theme: alt
       text: Notions_DW
-      link: /Notions_DW
+      link: /laure/Notions_DW
+    - theme: alt
+      text: CI-CD
+      link: /cicd/CI-CD-index
     - theme: alt
       text: API Symfony
-      link: /API_WITH_SYMFONY
+      link: /symfony/API_WITH_SYMFONY
     - theme: alt
       text: Symfony from scratch
-      link: /Symfony_from_scratch
+      link: /symfony/Symfony_from_scratch
     - theme: alt
       text: Mise en prod Symfo
-      link: /MEP_symfo
+      link: /symfony/Mise-en-prod-symfony
     - theme: alt
       text: Mise en prod Symfo WebPack Encore
-      link: /MEP_symfo_encore
-
+      link: /symfony/Mise_en_prod_symfony_web_encore
+    - theme: alt
+      text: SEO
+      link: /baptiste/SEO
+    - theme: alt
+      text: Accessibilité
+      link: /baptiste/accessib_baptiste
+    - theme: alt
+      text: Accessibilité_Images
+      link: /baptiste/guide-images_accessib_baptiste
 
 features:
   - title: Mettre en prod, même un vendredi
     details: De la connexion ssh à la production !
-    link: /MEP_symfo
-  - title: Tout pour créer une API avec Symfony
-    details: Endpoints, Json Response, Serializer, JWT, même pas peur ! 
-    link: /API_WITH_SYMFONY
-  - title: Getting start avec Symfo
-    details: Les composants indispensables
-    link: /Symfony_from_scratch
+    link: /menus/mep
+  - title: Tout pour composer avec Symfony
+    details: Composants indispensables, enddpoints, Json Response, Serializer, JWT, même pas peur ! 
+    link: /menus/symfony
+  - title: Laravel pour les noobs
+    details: Mes notes sur Laravel et plus 
+    link: /menus/laravel
 
 ---
 

@@ -1,8 +1,0 @@
-
-Builder
-npm run docs:build
-Prévisualiser
-npm run docs:preview          
-Déployer
-npx surge /.vitepress/dist
-
