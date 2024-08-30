@@ -18,7 +18,7 @@ hero:
       link: /laure/install_php-vanilla
     - theme: alt
       text: CI-CD
-      link: /cicd/CI-CD-index
+      link: /menus/cicd
     - theme: alt
       text: API Symfony
       link: /symfony/API_WITH_SYMFONY
