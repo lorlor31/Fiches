@@ -9,7 +9,13 @@ hero:
   actions:
     - theme: alt
       text: Notions_DW
-      link: /laure/Notions_DW
+      link: /laure/
+    - theme: alt
+      text: WordPress Basics
+      link: /laure/WP
+    - theme: alt
+      text: Installer un projet PHP vanilla
+      link: /laure/install_php-vanilla
     - theme: alt
       text: CI-CD
       link: /cicd/CI-CD-index

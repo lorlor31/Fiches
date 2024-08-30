@@ -11,3 +11,60 @@ Domain : https://lorlor-fiches.surge.sh/
 Au cas où les commandes disent qu'il y a pas VitePress, l'installer :
 npm install vitepress --save-dev
 
+
+
+
+
+
+
+## Activer le mode debug
+- Dans wp-config.php
+define('WP_DEBUG', true);
+define('WP_DEBUG_LOG', true);
+define('WP_DEBUG_DISPLAY', false);
+
+
+
+## vsftpd 
+sudo apt update && sudo apt upgrade -y
+sudo apt install vsftpd -y
+sudo cp /etc/vsftpd.conf /etc/vsftpd.conf.bak
+sudo nano /etc/vsftpd.conf
+
+- Modifiez les lignes suivantes (décommentez en supprimant le # et modifiez les valeurs si nécessaire) :
+```
+anonymous_enable=NO
+local_enable=YES
+write_enable=YES
+local_umask=022
+dirmessage_enable=YES
+use_localtime=YES
+xferlog_enable=YES
+connect_from_port_20=YES
+chroot_local_user=YES
+```
+- Ajouter
+```
+allow_writeable_chroot=YES
+user_sub_token=$USER
+local_root=/home/$USER/ftp
+pasv_min_port=10000
+pasv_max_port=10100
+
+sudo adduser ftpuser
+
+sudo mkdir -p /home/ftpuser/ftp
+sudo chown nobody:nogroup /home/ftpuser/ftp
+sudo chmod a-w /home/ftpuser/ftp
+
+sudo mkdir -p /home/ftpuser/ftp/upload
+sudo chown ftpuser:ftpuser /home/ftpuser/ftp/upload
+
+sudo systemctl restart vsftpd
+```
+## DEPLOIEMENT
+Je galère avec le ftp.
+Je suis donc passée par git clone et j'ai copié mes fichiers à la mano.
+Il faut reconfigurer le fichier wp-config et les URL
+ca marche toujours pas
+

@@ -1,3 +1,9 @@
+
+---
+prev:
+  text: '04-deploiement-app-laravel'
+  link: '/guide/04-deploiement-app-laravel'
+---
 # VirtualHosts Apache
 
 On vient de voir comment déployer en production un site statique, composé exclusivement de code HTML, CSS et JS.
@@ -220,3 +226,4 @@ sudo systemctl reload apache2
 ```
 
 Si vous ouvrez [http://backend.PSEUDOGH-server.eddi.cloud/](http://backend.PSEUDOGH-server.eddi.cloud/) dans votre navigateur, vous arrivez sur une page blanche ... et c'est normal ! Il nous reste quelques étapes pour mettre un projet Laravel en production, et ça se passe par [ici](./04-deploiement-app-laravel.md).
+
