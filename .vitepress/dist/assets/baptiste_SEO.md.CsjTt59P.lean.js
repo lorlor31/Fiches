@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as s,a2 as i}from"./chunks/framework.BXMoTSpH.js";const h=JSON.parse('{"title":"SEO","description":"","frontmatter":{},"headers":[],"relativePath":"baptiste/SEO.md","filePath":"baptiste/SEO.md"}'),o={name:"baptiste/SEO.md"},r=i("",29),n=[r];function a(l,u,c,p,d,g){return s(),t("div",null,n)}const q=e(o,[["render",a]]);export{h as __pageData,q as default};
