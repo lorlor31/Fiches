@@ -9,10 +9,16 @@ hero:
   actions:
     - theme: alt
       text: Notions_DW
-      link: /laure/
+      link: /laure/Notions_DW
     - theme: alt
       text: WordPress Basics
-      link: /laure/WP
+      link: /menus/WP
+    - theme: alt
+      text: Laravel
+      link: /menus/laravel
+    - theme: alt
+      text: Symfony
+      link: /menus/symfony
     - theme: alt
       text: Installer un projet PHP vanilla
       link: /laure/install_php-vanilla
@@ -20,26 +26,11 @@ hero:
       text: CI-CD
       link: /menus/cicd
     - theme: alt
-      text: API Symfony
-      link: /symfony/API_WITH_SYMFONY
-    - theme: alt
-      text: Symfony from scratch
-      link: /symfony/Symfony_from_scratch
-    - theme: alt
-      text: Mise en prod Symfo
-      link: /symfony/Mise-en-prod-symfony
-    - theme: alt
-      text: Mise en prod Symfo WebPack Encore
-      link: /symfony/Mise_en_prod_symfony_web_encore
-    - theme: alt
       text: SEO
       link: /baptiste/SEO
     - theme: alt
       text: Accessibilité
       link: /baptiste/accessib_baptiste
-    - theme: alt
-      text: Accessibilité_Images
-      link: /baptiste/guide-images_accessib_baptiste
 
 features:
   - title: Mettre en prod, même un vendredi

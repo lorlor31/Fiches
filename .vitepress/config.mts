@@ -10,15 +10,19 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/index' },
       { text: 'Feat.', link: '/menus/les_autres' },
-      { text: 'Examples', link: '/markdown-examples' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Navigation Rapide',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'WordPress', link: '/menus/WP' },
+          { text: 'MEP', link: '/menus/mep' },
+          { text: 'Laravel', link: '/menus/laravel' },
+          { text: 'React', link: '/menus/cecile' },
+          { text: 'Docker', link: '/menus/baptiste' },
+          { text: 'CI-CD', link: '/menus/cicd' },
+          { text: 'Symfony', link: '/menus/symfony' },
         ]
       }
     ],

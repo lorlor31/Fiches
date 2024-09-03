@@ -1,4 +1,4 @@
-# CREER SON SITE OCC
+# RESUME DU COURS "CREER SON SITE" OCC
 
 ## INTRO - BASICS
 - WordPress (CMS) vs WordPress.com (hébergement)
@@ -36,7 +36,9 @@
 - Apparence -> Personnaliser
 - Logo Favicon
 
-# ALLER PLUS LOIN AVEC WP
+
+
+# RESUME DU COURS "ALLER PLUS LOIN AVEC WP" OCC
 
 ## Installer 
 - Installer la LAMP, créer une BDD MySQL et installer WP https://fr.wordpress.org/

@@ -1,0 +1,22 @@
+/* .vitepress/theme/custom.css */
+/* https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css */
+:root {
+    /* --vp-c-brand-1: rgb(179, 0, 255); */
+    --vp-c-brand-2: #2ffe01;
+  }
+
+
+h1 {
+    border-radius: 5px;
+    text-decoration: underline dotted 2px #0663e4;
+    color: #0663e4;
+    font-style: oblique;
+}  
+h2 {
+    color: #A8B1FF;
+    text-decoration: underline dotted;
+}
+
+strong {
+    color : rgb(250, 7, 177);
+}
