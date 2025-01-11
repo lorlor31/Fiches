@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as c}from"./chunks/framework.TebtTzPX.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"cicd/CI-CD-index.md","filePath":"cicd/CI-CD-index.md"}'),a={name:"cicd/CI-CD-index.md"};function n(r,d,o,i,s,p){return c(),t("div")}const f=e(a,[["render",n]]);export{m as __pageData,f as default};

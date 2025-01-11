@@ -10,7 +10,7 @@ npx surge .vitepress/dist
 - Domain : https://lorlor-fiches.surge.sh/
 - Au cas où les commandes disent qu'il y a pas VitePress, l'installer :
 npm install vitepress --save-dev
-
+- Au cas où y a erreur élément mal fermé : vérifier si il y a pas une balise HTML pas entre backquotes 
 ## Trucs sur la structure de VitePress
 - Pour customiser la nav bar : 
 dans .vitepress/config.mts

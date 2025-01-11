@@ -10,6 +10,9 @@ hero:
   tagline: Y a encore beaucoup beaucoup de taf :) ...
   actions: 
     - theme: alt
+      text: Création de blocs Gutenberg
+      link: /menus/creation-blocs-gutenberg
+    - theme: alt
       text: Créer un site OCC
       link: /WP/WP-creer-site-OCC
     - theme: alt
