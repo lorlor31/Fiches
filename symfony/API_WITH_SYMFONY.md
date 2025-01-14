@@ -1,5 +1,16 @@
 # CREER UNE API AVEC SYMFONY
 
+## CREER UN PROJET SYMFONY AVEC COMPOSANTS ESSENTIELS
+
+`composer create-project symfony/skeleton nomDeMonProjet`
+et si nécessaire ?
+`composer require api`
+
+On aura besoin aussi du :
+- maker `composer require symfony/maker-bundle --dev`
+- doctrine `composer require symfony/orm-pack`
+- validator `composer require symfony/validator`
+- securyty bundle `composer require symfony/security-bundle`
 ## CONTROLLER ET ROUTES
 
 Créer un controller sans tpl : `bin/console make:controller --no-template`
@@ -39,7 +50,7 @@ Exemple :
             ["Location" => $this->generateUrl("app_products")]
             ); 
 - Attention il peut y avoir des relations circulaires, cf normalizer ci-dessous
-
+- Pour tester le Create, envoyer un JSON via Postman (dans body->raw->JSON)
 ## VALIDATIONS ET CONTRAINTES
 
 - à rajouter au-dessus des propriétés des entités
@@ -187,3 +198,14 @@ Très concrètement, vu que LExikJWT gère toute la partie authentification et v
 
 
 
+## CORS ORIGIN
+
+
+1. Installer nelmio CORS bundle
+
+`composer require nelmio/cors-bundle`
+
+2. Exemples de conf de ../config/packages/nelmio_cors.yaml
+`paths:'^/': # allow_origin: ['*']`
+ou
+`paths:'^/': # allow_origin: ['nom_de_domaine_autorisé']`
